@@ -1,15 +1,7 @@
-# Basic workflow | Resonate Python SDK application template
+# Paleo Python project workflow
 
-This repository serves as a template for scaffolding a project with the Resonate CLI.
-
-Install dependencies:
-
-```
-uv sync
-```
-
-Run the app:
-
-```
-uv run app
+```rm -rf pyproject.*
+alias uv=pip
+pip install -r requirements.txt
+python ./blorgo.py
 ```
